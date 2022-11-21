@@ -1,4 +1,4 @@
-
+ alert("THIS WEBPAGE IS ON UNDER DEVELOPMENT🏗️🚧👷‍♂️ AND Use desktop or laptop to enjoy it 😊😊");
 
 //var navi = documnet.getElementById("navbar");
 var searchbar = document.getElementById("searchbar");
