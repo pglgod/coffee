@@ -1,0 +1,278 @@
+.navbar {
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(230, 227, 227, 0.712);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo a img {
+    width: 150px;
+
+}
+
+.book-btn {
+    width: 100px;
+    height: 33px;
+    margin: auto 10px;
+    background-color: rgb(234, 222, 159);
+    color: rgb(69, 29, 29);
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+.search-cnt {
+    margin: auto 10px;
+    /* width: 300px; */
+}
+
+.search-bar {
+    display: none;
+    width: 300px;
+    height: 25px;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.498);
+    color: rgb(69, 29, 29);
+    border: 1px solid rgb(69, 29, 29);
+    border-radius: 5px;
+    animation: widthanimate 2s ease-in-out;
+
+}
+
+@keyframes widthanimate {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+.search-icon {
+    margin: auto 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-menu {
+    margin-left: 10px;
+}
+
+.menu-icn {
+    width: 30px;
+    cursor: pointer;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+ 
+    /* background-color:rgb(248, 238, 212); */
+}
+.poster-img{
+    border-bottom-right-radius: 15px;
+}
+.contact{
+    width: 400px;
+    background: linear-gradient(to right, rgb(83, 36, 36),rgba(76, 34, 34, 0.694), rgba(92, 43, 43, 0.539), rgba(255, 255, 255, 0)   );
+}
+.contact-list li {
+    margin: 5px 10px;
+    font-size: 20px;
+}
+.contact-list li a{
+    color: #fff;
+}
+
+.great{
+    position: absolute;
+    top: 26%;
+    right: 20%;
+}
+.great pre{
+    font-size: 90px;
+    /* font-family: 'Island Moments', cursive; */
+    font-family: 'Kolker Brush', cursive;
+    /* font-weight:bolder; */
+    line-height: 72px;
+    color: #fff;
+
+}
+
+.about{
+    margin-top: 5px;
+}
+.about-us{
+    margin-right:  5px ;
+}
+.about-img{
+    margin-left: 5px;
+
+}
+
+.about-img img{
+    width: 500px;   
+    border-bottom-right-radius: 15px
+}
+.about-us h1{
+    color: rgb(107, 58, 2);
+    font-family: 'EB Garamond', serif;
+    font-size: 45px;
+}
+.about-us pre{
+    margin-top: 10px;
+    width: 475px;
+    height: 77px;
+    padding: 5px;
+    background-color: rgb(250, 248, 245);
+    color: rgb(170, 100, 16);
+    font-family: 'Caveat', cursive;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 36px;
+    border: 1px solid rgb(92, 40, 40);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(74, 74, 74);
+    
+}
+.about-us pre span{
+    color: rgb(250, 216, 175);
+}
+.about-us .p1{
+    margin-top: 15px;
+    /* font-family: 'EB Garamond', serif; */
+    font-size: 15px;
+}
+.sign-divider{
+    margin:  0 0 10px;
+    width: 130px;
+    height: 1.5px;
+    outline: none;
+    background-color: rgba(202, 141, 66, 0.777);
+    box-shadow: 0px 2px 4px rgb(74, 74, 74);
+    border-radius: 1px;
+}
+.about-us .sign{
+    margin: 15px 0 0;
+    font-family: 'Caveat', cursive;
+    font-weight: 100;
+    color: rgb(117, 116, 116);
+}
+
+.about-01{
+    margin: 15px 0 0;
+
+}
+
+.about-img01{
+    margin-right: 10px;
+}
+.about-img01 img{
+    width: 500px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.about-des p{
+    margin: 15px 0 0;
+    text-align: right;
+
+}
+.about-des button{
+    width: 100px;
+    height: 33px;
+    margin: 15px 0 0;
+    float: right;
+    background-color: rgb(234, 222, 159);
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+
+}
+.about-des button a{
+    color: rgb(69, 29, 29);
+}
+
+
+.poster-01{
+    margin: 15px 0 0 0;
+    
+    width: 1200px ;
+    height: 400px;
+    background: url(/img/05.jpg);
+    border-bottom-right-radius: 15px;
+
+}
+.great-01{
+    
+    color: #fff;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 153px;
+}
+
+
+
+/* footer */
+
+.footer{
+    margin: 15px 0 0 0 ;
+}
+.foot-contact{
+    height: 150px;
+    background: 38% 35%  /285px no-repeat url("/img/coffee_logo.png"),
+            #000;
+}
+.foot-contact::before{
+    transform: rotate(30deg);
+}
+
+.call, .location, .timing {
+    margin: auto 30px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: 1px solid rgb(170, 100, 16);
+    box-shadow: 5px 5px 5px rgb(170, 100, 16);
+}
+
+.call-svg, .location-svg,.sand-clock-svg{
+    width: 30px ;
+    height: 30px ;
+    fill: rgb(170, 100, 16);
+
+}
+
+.dddd{
+    margin-left: 10px;
+}
+.dddd h5{
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.dddd h4{
+    color: #fff;
+    font-size: 15px;
+    font-weight:200;
+}
