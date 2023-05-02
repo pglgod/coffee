@@ -1,4 +1,4 @@
- alert("THIS WEBPAGE IS ON UNDER DEVELOPMENT🏗️🚧👷‍♂️ AND Use desktop or laptop to enjoy it 😊😊 & अगर आप फिर भी इसे mobile या अन्य किसी छोटे screen ke device me देखते है तो सारा का सारा गुड 💩गोबर💩 लगेगा --- thankyou--- ");
+ alert("THIS WEBPAGE IS ON UNDER DEVELOPMENT🏗️🚧👷‍♂️ AND Use desktop or laptop to enjoy it 😊😊 ");
 
 //var navi = documnet.getElementById("navbar");
 var searchbar = document.getElementById("searchbar");
